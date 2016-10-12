@@ -1,0 +1,76 @@
+import struct
+
+""" 
+
+Technical Summary
+	
+	Heart Rate Monitor: Rhythm
+
+		Electrical Impulse => Skin => Sensor => Transmitter => Amplifier => Sound => Rhythm
+
+		Electroencephalogram: Harmony
+
+		Neural oscillation => Skin => Sensor => Transmitter => Amplifier => Sound => Harmony
+
+Optimization of .flac .aac files 
+
+	Machine Learning Algorithm:  Melody
+
+		Heart Data - 
+Check for all patterns in 1 beat
+		Check for all patterns in 2 beats
+		Check for all pattern in 3 beats
+		Check for all patterns in nth beats
+
+		Central Nervous System/Brain - 
+		Check for patterns ≥ 27 Hz (Gamma, ideas/lang/memory processing)
+		Check for patterns ≥ 12 Hz ≤ 27Hz (Beta, awake, lacking linked to emotional disorders)
+		Check for patterns ≥ 8hz ≤ 12hz (Alpha, closing of eyes )
+		Check for patterns ≥ 3Hz ≤ 8Hz (Theta, light sleep, extreme relaxation)
+		Check for patterns ≥ 0.2hz ≤ 3hz (Delta, deep sleep, no dreams)
+
+https://www.scientificamerican.com/article/what-is-the-function-of-t-1997-12-22/
+
+()
+Select all current patterns
+Sub divide patterns by the number of total current patterns
+Stochastically sort elements (random assignment)
+
+"""
+
+# The algorithm identifies origins of violence, and trains people to 
+# predict when violence occurs in higher orders of magnitude  
+# Play [Sin [2 Pi 1000 x ˆ2] ,{x , 0 , 1 0}]
+# The Midi numbering of musical notes is s = 69 + 12·log2(f / 440)
+# The piano scale function
+# f(s) = 440·2(s−69)/12 is an exponential functionf(s) = b^as which satisfies f(s+ 12) = 2f(s)
+# midifrequency [ m]  := N[440  2ˆ((m − 69)/12)]
+# Here is an example of a decomposition:
+# f(x) = sin(x)+sin(2x)/2+sin(3x)/3+sin(4x)/4+sin(5x)/5
+
+# Think in terms of HOM's (Higher Orders of Magnitude)
+		# Jerry R. Hobbs USC Information Sciences Institute Marina del Rey, California
+# How can you teach yourself and a group to understand math formulae in different written languages
+
+# mayores órdenes de magnitud
+# 級較高的訂單	 Jí jiào gāo de dìngdān
+
+
+def all(iterable):
+	for element in iterable:
+		if not element:
+			return False
+	return True
+
+def any(iterable):
+	for element in iterable:
+		if element:
+			return True
+	return False
+
+dir() #show names in module space
+['_bulitens', '_name_']
+dir(struct)
+['Struct' , '_all_' , '_bulitins_' , '_cached_' , '_doc_' , "_file_" , 
+'_initializing_' , '_loader_' , '_name_' , '_package_' , '_clearcache_' , 
+'calcsize' , 'error' , 'pack' , 'pack_into' , 'unpack_from']
